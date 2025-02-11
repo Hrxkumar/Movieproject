@@ -1,16 +1,18 @@
-import Fetch_Data_Api from "./component/Fetch_Data_Api";
+import{BrowserRouter as Router,Routes , Route} from 'react-router-dom';
+import Home from './Pages/Home';
+import Contact from './Pages/Contact';
 
 function App() {
 
 
   return (
     <>
-      <div>
-    {/* <UseEffect/> */}
-    </div>
-    <div>
-     <Fetch_Data_Api/>
-    </div>
+      <Router>
+        <Routes>
+          <Route path = "/" element = {<Home/>}/>
+          <Route path = "/Contact" element = {<Contact/>}/>
+        </Routes>
+      </Router>
     </>
   
   );
