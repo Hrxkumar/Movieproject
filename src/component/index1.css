@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.div{
+    background-color: cadetblue;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
